@@ -27,6 +27,19 @@
 .col-50{
     width: 50%;
 }
+.col-80{
+    width: 100%;
+    margin: 10px;  
+    height: 100px; 
+}
+.col-20{
+    width: 100%;
+    margin: 10px;  
+    height: 100px; 
+}
+.col-100{
+    width: 100%;
+}
 .flex{
     display: flex;
 }
@@ -37,7 +50,7 @@ ul{
 }
 .content{
     padding: 10px;
-    text-align: center;
+    
 }
 .justify-end{
     display: flex;
@@ -52,6 +65,12 @@ ul{
     background-color: white;
     border-radius: 10px;
 }
+.bg-grey{
+    background-color: #222;
+}
 .text-color-white{
     color: #fff;
+}
+.text-align{
+    text-align: center;
 }

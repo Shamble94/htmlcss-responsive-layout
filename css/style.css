@@ -46,8 +46,20 @@ body{
     border-radius: 10px;
     font-size: 15px;
 }
+.col-33-50{
+    width: calc(100% - 20px);
+    margin: 10px;  
+    border-radius: 10px;
+    font-size: 15px;
+}
 .col-33-66{
     width: calc(100% - 20px);
+    margin: 10px;  
+    border-radius: 10px;
+    font-size: 15px;
+}
+.col-33-100{
+    width:calc(100% - 20px);
     margin: 10px;  
     border-radius: 10px;
     font-size: 15px;
@@ -77,6 +89,7 @@ ul{
     display: flex;
     list-style: none;
     gap: 30px;
+    justify-content: center;
 }
 /* CONTENT */
 .content{
@@ -130,7 +143,7 @@ ul{
 .button{
     border-radius: 20px;
     border: none;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 .padding{
     padding: 15px;
@@ -141,6 +154,7 @@ ul{
 .testimonial{
     width: 50%;
     border-radius: 50%;
+    padding: 10px;
     
    
 }
@@ -200,24 +214,59 @@ ul{
     .col-33-66{
         width: calc(100% / 3 * 2 - 20px);
     }
+    .col-33-100{
+        width: calc(100% - 20px);   
+    }
+    .testimonial{
+        float: left;
+        width: 30%
+    }
+    .col-33-50{
+        width: calc(50% - 20px) ;
+    }
+    .col-80{
+        width: calc(70% - 20px) ;
+    }
+    .col-20{
+         width: calc(30% - 20px) ;
+    }
+    .apici{
+        left:90%;
+        font-size:30px
+    }
+    .about{
+        width: 100%;
+    }
+    
 }
-
-
-/* @media screen and (min-width: 768px) and (max-width: 1400px){
+@media screen and (min-width:768px) and (max-width: 1200px){
     .container{
-        width: 800px;
-        margin: auto;
+        width: 900px;
+    }
+    .hide{
+        display:block
+    }
+    .show{
+        display: none
+    }
+    ul{
+        display: block;
+    }
+    .text-align-c{
+        text-align: left;
     }
     .col-33{
         width: calc(100% / 3 - 20px);
     }
     .col-33-66{
         width: calc(100% / 3 * 2 - 20px);
-        position: relative;
     }
     .phone{
         float: right;
-    }
-    
+        
+        
 }
- */
+
+
+
+ 

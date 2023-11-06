@@ -10,7 +10,6 @@ body{
 .bg-blue{
     background-color: #0084fd;
     color: white;
-    padding: 10px
 }
 .bg-cyan{
     background-color: #b5ddff;
@@ -20,7 +19,7 @@ body{
 }
 .bg-white{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
 }
 .bg-grey{
@@ -31,6 +30,7 @@ body{
 .container{
     width: 100%;
     margin: auto;
+    padding: 20px 0px;
 }
 
 /* ROW */
@@ -76,7 +76,7 @@ body{
 ul{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
 }
 /* CONTENT */
 .content{
@@ -117,6 +117,9 @@ ul{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.margin-top{
+    margin-top: 50px;
+}
 .phone{
     width: 50%;
 }
@@ -136,9 +139,9 @@ ul{
     font-size: 10px;
 }
 .testimonial{
-    width: 40%;
+    width: 50%;
     border-radius: 50%;
-    float: left;
+    
    
 }
 
@@ -154,6 +157,13 @@ ul{
 }
 .text-color-purple{
     color:#9792e4;
+}
+.text-color-grey{
+    color: lightgray
+}
+.text-color-ocra{
+    color: rgb(255, 170, 0);
+    font-size: 50px
 }
 .margin-bot{
     margin-bottom: 30px;
@@ -174,6 +184,10 @@ ul{
     left: 40%;
     font-size: 50px;
     color:#9792e4
+}
+.puntino{
+    list-style-type: disc;
+    
 }
 
 @media screen and (min-width: 469px) and (max-width: 767px){

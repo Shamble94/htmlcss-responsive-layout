@@ -52,6 +52,12 @@ body{
     border-radius: 10px;
     font-size: 15px;
 }
+.col-33-50-33{
+    width: calc(100% - 20px);
+    margin: 10px;  
+    border-radius: 10px;
+    font-size: 15px;
+}
 .col-33-66{
     width: calc(100% - 20px);
     margin: 10px;  
@@ -59,6 +65,12 @@ body{
     font-size: 15px;
 }
 .col-33-100{
+    width:calc(100% - 20px);
+    margin: 10px;  
+    border-radius: 10px;
+    font-size: 15px;
+}
+.col-33-100-50{
     width:calc(100% - 20px);
     margin: 10px;  
     border-radius: 10px;
@@ -140,6 +152,9 @@ ul{
 .planning{
     width: 100%;
 }
+.planning2{
+    width: 100%;
+}
 .button{
     border-radius: 20px;
     border: none;
@@ -214,7 +229,7 @@ ul{
     .col-33-66{
         width: calc(100% / 3 * 2 - 20px);
     }
-    .col-33-100{
+    .col-33-100-50{
         width: calc(100% - 20px);   
     }
     .testimonial{
@@ -223,6 +238,9 @@ ul{
     }
     .col-33-50{
         width: calc(50% - 20px) ;
+    }
+    .col-33-50-33{
+        width: calc(100% / 2 - 20px);
     }
     .col-80{
         width: calc(70% - 20px) ;
@@ -239,18 +257,15 @@ ul{
     }
     
 }
-@media screen and (min-width:768px) and (max-width: 1200px){
+@media screen and (min-width:768px) and (max-width: 1440px){
     .container{
-        width: 900px;
+        width: 991px;
     }
     .hide{
         display:block
     }
     .show{
         display: none
-    }
-    ul{
-        display: block;
     }
     .text-align-c{
         text-align: left;
@@ -261,9 +276,40 @@ ul{
     .col-33-66{
         width: calc(100% / 3 * 2 - 20px);
     }
+    .col-33-50-33{
+        width: calc(100% / 2 - 20px);
+    }
     .phone{
         float: right;
-        
+    
+    }
+    .testimonial{
+        float: left;
+        width: 20%;
+    }
+    .col-33-50-33{
+        width: calc(100% / 3 - 20px);
+    }
+    .col-80{
+        width: calc(70% - 20px) ;
+    }
+    .col-20{
+         width: calc(30% - 20px) ;
+    }
+    .apici{
+        left:80%;
+        font-size:30px
+    }
+    .about{
+        width: 100%;
+    }
+    .col-33-100-50{
+        width: calc(100% / 2 - 20px);   
+    }
+    
+    .hide{
+        display: flex;
+    }
         
 }
 

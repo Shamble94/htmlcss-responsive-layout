@@ -8,12 +8,20 @@
     color: white;
     padding: 10px
 }
+.bg-cyan{
+    background-color: #b5ddff;
+}
 .container{
     width: 100%;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.col-33{
+    width:100%;
+    margin: 10px;  
+    height: 100px; 
 }
 .col-50{
     width: 50%;
@@ -25,4 +33,12 @@ ul{
     display: flex;
     list-style: none;
     gap: 10px;
+}
+.content{
+    padding: 10px;
+    text-align: center;
+}
+.justify-end{
+    display: flex;
+    justify-content: flex-end;
 }

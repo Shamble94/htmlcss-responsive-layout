@@ -40,12 +40,6 @@ body{
 }
 
 /* COLONNE */
-.col-33{
-    width:calc(100% - 20px);
-    margin: 10px;  
-    border-radius: 10px;
-    font-size: 15px;
-}
 .col-33-50{
     width: calc(100% - 20px);
     margin: 10px;  
@@ -76,6 +70,16 @@ body{
     border-radius: 10px;
     font-size: 15px;
 }
+.col-33{
+    width:calc(100% - 20px);
+    margin: 10px;  
+    border-radius: 10px;
+    font-size: 15px;
+}
+.col-20{
+    width: calc(100% - 20px);
+    margin: 10px;    
+}
 .col-50{
     width: 50%;
 }
@@ -83,17 +87,9 @@ body{
     width: calc(100% - 20px);
     margin: 10px;  
 }
-.col-20{
-    width: calc(100% - 20px);
-    margin: 10px;  
-    
-}
+
 .col-100{
     width: calc(100% - 20px);
-}
-/* ATTRIBUTO FLEX */
-.flex{
-    display: flex;
 }
 
 /* LISTA */
@@ -103,6 +99,7 @@ ul{
     gap: 30px;
     justify-content: center;
 }
+
 /* CONTENT */
 .content{
     padding: 20px;  
@@ -125,62 +122,6 @@ ul{
 .text-align-c{
     text-align: center;
 }
-
-.padding-5{
-    padding: 5px;
-}
-
-.hide{
-    display: none;
-}
-
-.aling-center{
-    align-items: center;
-}
-
-.margin-top-bot{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.margin-top{
-    margin-top: 50px;
-}
-.phone{
-    width: 50%;
-}
-
-.planning{
-    width: 100%;
-}
-.planning2{
-    width: 100%;
-}
-.button{
-    border-radius: 20px;
-    border: none;
-    padding: 10px 30px;
-}
-.padding{
-    padding: 15px;
-}
-.font-size-10{
-    font-size: 10px;
-}
-.testimonial{
-    width: 50%;
-    border-radius: 50%;
-    padding: 10px;
-    
-   
-}
-
-.number-size{
-    font-size:  60px
-}
-
-.icon{
-    font-size: 50px;
-}
 .text-color-blue{
     color:  #0084fd;
 }
@@ -194,30 +135,95 @@ ul{
     color: rgb(255, 170, 0);
     font-size: 50px
 }
+
+/* PADDING */
+.padding-5{
+    padding: 5px;
+}
+.padding{
+    padding: 15px;
+}
+
+/* LISTA NASCOSTA */
+.hide{
+    display: none;
+}
+
+/* ALLINEAMENTO TESTO */
+.aling-center{
+    align-items: center;
+}
+
+/* MARGINI */
+.margin-top-bot{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.margin-top{
+    margin-top: 50px;
+}
 .margin-bot{
     margin-bottom: 30px;
 }
+
+/* IMMAGINI */
+.phone{
+    width: 50%;
+}
+.planning{
+    width: 100%;
+}
+.planning2{
+    width: 100%;
+}
+.testimonial{
+    width: 50%;
+    border-radius: 50%;
+    padding: 10px;
+}
+.about{
+    width: 50%;
+    border-radius: 50%;
+}
+
+/* BOTTONE */
+.button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+}
+
+/* DIMENSIONE TESTO */
+.font-size-10{
+    font-size: 10px;
+}
+.number-size{
+    font-size:  60px
+}
+.icon{
+    font-size: 50px;
+}
+
+/* ARROW DOWN */
 .arrow{
     border-radius: 50%;
     margin:20px 0px ;
     padding: 15px;
     background-color: #9792e4;
 }
-.about{
-    width: 50%;
-    border-radius: 50%;
-   
-}
+/* APICI */
 .apici{
     position:absolute;
     left: 40%;
     font-size: 50px;
     color:#9792e4
 }
+/* STILE LISTA */
 .puntino{
     list-style-type: disc;
     
 }
+/*********** MEDIA QUERY  ***********/
 
 @media screen and (min-width: 469px) and (max-width: 767px){
     .text-align-c{
@@ -257,6 +263,8 @@ ul{
     }
     
 }
+
+
 @media screen and (min-width:768px) and (max-width: 1440px){
     .container{
         width: 991px;
@@ -275,17 +283,10 @@ ul{
     }
     .col-33-66{
         width: calc(100% / 3 * 2 - 20px);
+        
     }
     .col-33-50-33{
         width: calc(100% / 2 - 20px);
-    }
-    .phone{
-        float: right;
-    
-    }
-    .testimonial{
-        float: left;
-        width: 20%;
     }
     .col-33-50-33{
         width: calc(100% / 3 - 20px);
@@ -296,6 +297,15 @@ ul{
     .col-20{
          width: calc(30% - 20px) ;
     }
+    
+    .phone{
+        float: right;
+    }
+    .testimonial{
+        float: left;
+        width: 20%;
+    }
+   
     .apici{
         left:80%;
         font-size:30px
@@ -310,7 +320,6 @@ ul{
     .hide{
         display: flex;
     }
-        
 }
 
 

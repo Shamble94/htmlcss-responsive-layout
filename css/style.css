@@ -28,7 +28,7 @@ body{
 
 /* CONTAINER */
 .container{
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     padding: 20px 0px;
 }
@@ -76,14 +76,14 @@ body{
     border-radius: 10px;
     font-size: 15px;
 }
-.col-20{
+.col-40{
     width: calc(100% - 20px);
     margin: 10px;    
 }
 .col-50{
     width: 50%;
 }
-.col-80{
+.col-60{
     width: calc(100% - 20px);
     margin: 10px;  
 }
@@ -96,7 +96,7 @@ body{
 ul{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -190,7 +190,7 @@ ul{
 .button{
     border-radius: 20px;
     border: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
 /* DIMENSIONE TESTO */
@@ -223,9 +223,15 @@ ul{
     list-style-type: disc;
     
 }
+
 /*********** MEDIA QUERY  ***********/
 
 @media screen and (min-width: 469px) and (max-width: 767px){
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
     .text-align-c{
         text-align: left;
     }
@@ -248,11 +254,11 @@ ul{
     .col-33-50-33{
         width: calc(100% / 2 - 20px);
     }
-    .col-80{
-        width: calc(70% - 20px) ;
+    .col-60{
+        width: calc(60% - 20px) ;
     }
-    .col-20{
-         width: calc(30% - 20px) ;
+    .col-40{
+         width: calc(40% - 20px) ;
     }
     .apici{
         left:90%;
@@ -261,13 +267,17 @@ ul{
     .about{
         width: 100%;
     }
+    .phone{
+        float: left;
+    }
     
 }
 
 
-@media screen and (min-width:768px) and (max-width: 1440px){
+@media screen and (min-width:768px) and (max-width: 1200px){
     .container{
-        width: 991px;
+        max-width: 991px;
+        margin: 0 auto;
     }
     .hide{
         display:block
@@ -291,11 +301,11 @@ ul{
     .col-33-50-33{
         width: calc(100% / 3 - 20px);
     }
-    .col-80{
-        width: calc(70% - 20px) ;
+    .col-60{
+        width: calc(60% - 20px) ;
     }
-    .col-20{
-         width: calc(30% - 20px) ;
+    .col-40{
+         width: calc(40% - 20px) ;
     }
     
     .phone{
@@ -307,7 +317,7 @@ ul{
     }
    
     .apici{
-        left:80%;
+        left:85%;
         font-size:30px
     }
     .about{
@@ -321,7 +331,5 @@ ul{
         display: flex;
     }
 }
-
-
 
  

@@ -274,9 +274,9 @@ ul{
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     .container{
-        max-width: 991px;
+        width: 991px;
         margin: 0 auto;
     }
     .hide{

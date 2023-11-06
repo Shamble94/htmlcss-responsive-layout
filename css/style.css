@@ -58,12 +58,11 @@ body{
 .col-80{
     width: calc(100% - 20px);
     margin: 10px;  
-    height: 100px; 
 }
 .col-20{
     width: calc(100% - 20px);
     margin: 10px;  
-    height: 100px; 
+    
 }
 .col-100{
     width: calc(100% - 20px);
@@ -114,16 +113,16 @@ ul{
     align-items: center;
 }
 
-h2{
-    color: #0084fd
-}
-
 .margin-top-bot{
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .phone{
     width: 50%;
+}
+
+.planning{
+    width: 100%;
 }
 .button{
     border-radius: 20px;
@@ -133,12 +132,48 @@ h2{
 .padding{
     padding: 15px;
 }
+.font-size-10{
+    font-size: 10px;
+}
+.testimonial{
+    width: 40%;
+    border-radius: 50%;
+    float: left;
+   
+}
+
+.number-size{
+    font-size:  60px
+}
 
 .icon{
     font-size: 50px;
 }
 .text-color-blue{
     color:  #0084fd;
+}
+.text-color-purple{
+    color:#9792e4;
+}
+.margin-bot{
+    margin-bottom: 30px;
+}
+.arrow{
+    border-radius: 50%;
+    margin:20px 0px ;
+    padding: 15px;
+    background-color: #9792e4;
+}
+.about{
+    width: 50%;
+    border-radius: 50%;
+   
+}
+.apici{
+    position:absolute;
+    left: 40%;
+    font-size: 50px;
+    color:#9792e4
 }
 
 @media screen and (min-width: 469px) and (max-width: 767px){

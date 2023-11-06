@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COLORI DI BACKGROUND */
 .bg-blue{
     background-color: #0084fd;
     color: white;
@@ -11,13 +13,30 @@
 .bg-cyan{
     background-color: #b5ddff;
 }
+.bg-purple{
+    background-color: #9792e4;
+}
+.bg-white{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.bg-grey{
+    background-color: #222;
+}
+
+/* CONTAINER */
 .container{
     width: 100%;
 }
+
+/* ROW */
 .row{
     display: flex;
     flex-wrap: wrap;
 }
+
+/* COLONNE */
 .col-33{
     width:100%;
     margin: 10px;  
@@ -40,37 +59,45 @@
 .col-100{
     width: 100%;
 }
+/* ATTRIBUTO FLEX */
 .flex{
     display: flex;
 }
+
+/* LISTA */
 ul{
     display: flex;
     list-style: none;
     gap: 10px;
 }
+/* CONTENT */
 .content{
-    padding: 10px;
-    
+    padding: 10px;  
 }
+
+/* JUSTIFY END */
 .justify-end{
     display: flex;
     justify-content: flex-end;
 }
 
 
-.bg-purple{
-    background-color: #9792e4;
-}
-.bg-white{
-    background-color: white;
-    border-radius: 10px;
-}
-.bg-grey{
-    background-color: #222;
-}
+/* COLORI TESTO E STILE */
 .text-color-white{
     color: #fff;
 }
 .text-align{
     text-align: center;
+}
+
+.padding-5{
+    padding: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+.aling-center{
+    align-items: center;
 }

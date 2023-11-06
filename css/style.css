@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 /* COLORI DI BACKGROUND */
 .bg-blue{
     background-color: #0084fd;
@@ -28,6 +30,7 @@
 /* CONTAINER */
 .container{
     width: 100%;
+    margin: auto;
 }
 
 /* ROW */
@@ -38,26 +41,32 @@
 
 /* COLONNE */
 .col-33{
-    width:100%;
+    width:calc(100% - 20px);
     margin: 10px;  
-    height: 100px; 
     border-radius: 10px;
+    font-size: 15px;
+}
+.col-33-66{
+    width: calc(100% - 20px);
+    margin: 10px;  
+    border-radius: 10px;
+    font-size: 15px;
 }
 .col-50{
     width: 50%;
 }
 .col-80{
-    width: 100%;
+    width: calc(100% - 20px);
     margin: 10px;  
     height: 100px; 
 }
 .col-20{
-    width: 100%;
+    width: calc(100% - 20px);
     margin: 10px;  
     height: 100px; 
 }
 .col-100{
-    width: 100%;
+    width: calc(100% - 20px);
 }
 /* ATTRIBUTO FLEX */
 .flex{
@@ -72,7 +81,7 @@ ul{
 }
 /* CONTENT */
 .content{
-    padding: 10px;  
+    padding: 20px;  
 }
 
 /* JUSTIFY END */
@@ -89,6 +98,9 @@ ul{
 .text-align{
     text-align: center;
 }
+.text-align-c{
+    text-align: center;
+}
 
 .padding-5{
     padding: 5px;
@@ -101,3 +113,62 @@ ul{
 .aling-center{
     align-items: center;
 }
+
+h2{
+    color: #0084fd
+}
+
+.margin-top-bot{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.phone{
+    width: 50%;
+}
+.button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 50px;
+}
+.padding{
+    padding: 15px;
+}
+
+.icon{
+    font-size: 50px;
+}
+.text-color-blue{
+    color:  #0084fd;
+}
+
+@media screen and (min-width: 469px) and (max-width: 767px){
+    .text-align-c{
+        text-align: left;
+    }
+    .col-33{
+        width: calc(100% / 3 - 20px);
+    }
+    .col-33-66{
+        width: calc(100% / 3 * 2 - 20px);
+    }
+}
+
+
+/* @media screen and (min-width: 768px) and (max-width: 1400px){
+    .container{
+        width: 800px;
+        margin: auto;
+    }
+    .col-33{
+        width: calc(100% / 3 - 20px);
+    }
+    .col-33-66{
+        width: calc(100% / 3 * 2 - 20px);
+        position: relative;
+    }
+    .phone{
+        float: right;
+    }
+    
+}
+ */
